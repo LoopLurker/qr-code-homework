@@ -1,0 +1,48 @@
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.banner-container {
+  background-color: #ffffff;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-shadow: #333333;
+  border-radius: 20px;
+}
+.shape-overlay {
+  display: inline block;
+  margin: 16px 16px 24px 16px;
+  background-color: #2c7dfa;
+  border-radius: 10px;
+  height: 288px;
+  width: 288px;
+}
+
+.qr-code img {
+  width: 100%;
+  max-width: 160px;
+  margin: 64px 64px 64px 64px;
+}
+
+.text-content {
+  margin: 24px 16px 40px 16px;
+  text-align: center;
+}
+.text-1 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #1f314f;
+}
+.text-2 {
+  margin: 16;
+  font-size: 15;
+  color: #7d889e;
+}
